@@ -78,11 +78,12 @@ The skills are stack neutral by design. `/test` ships framework guidance for
 JavaScript and TypeScript (Vitest, Jest, Playwright), Python (pytest), Go, and
 Rust. PHP is not yet covered.
 
-## Credits and licence
+## Credits
 
-Released under the MIT licence. Based on the Engineering Workflow Skills by
-[JavaScript Mastery](https://github.com/JavaScript-Mastery-Pro/skills), used
-and modified under the MIT licence. Original copyright is retained in
-[LICENSE](LICENSE) alongside Atlas's own.
+Based on the Engineering Workflow Skills by
+[JavaScript Mastery](https://github.com/JavaScript-Mastery-Pro/skills),
+which are published under the MIT licence.
+
+Licensing for this pack is not yet settled. It stays private until it is.
 
 Built with the [Agent Skills](https://agentskills.io) open format.
