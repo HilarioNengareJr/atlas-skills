@@ -1,0 +1,39 @@
+{
+  "name": "@hilarionengarejr/atlas-skills",
+  "version": "0.1.0",
+  "description": "Nine engineering skills that form one pipeline: scope, architect, develop, test, check, debug, document, audit, sync.",
+  "bin": {
+    "atlas-skills": "bin/atlas-skills.js"
+  },
+  "files": [
+    "bin/",
+    "skills/",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node bin/atlas-skills.js --list"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HilarioNengareJr/atlas-skills.git"
+  },
+  "homepage": "https://github.com/HilarioNengareJr/atlas-skills#readme",
+  "bugs": {
+    "url": "https://github.com/HilarioNengareJr/atlas-skills/issues"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "agent-skills",
+    "agents",
+    "ai",
+    "workflow"
+  ]
+}

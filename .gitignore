@@ -1,0 +1,8 @@
+node_modules/
+*.tgz
+npm-debug.log*
+
+# dev work docs, never committed
+context/
+.claude/
+CLAUDE.md

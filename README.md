@@ -4,6 +4,24 @@ Nine skills that form one engineering pipeline. Each one owns a narrow slice of 
 
 This README is the map. It says what each skill owns, where every artifact gets written, and where one skill stops and sends you to another.
 
+## Install
+
+```
+npx @hilarionengarejr/atlas-skills
+```
+
+That copies all nine skills into `~/.claude/skills/`, so every project on the machine can reach them.
+
+| Flag | What it does |
+|---|---|
+| `--project` | install into `./.claude/skills` in the current repo instead |
+| `--force` | overwrite a skill that is already installed |
+| `--list` | list the nine skills, then exit |
+
+A skill that is already there is left alone, and the installer tells you which ones it skipped.
+
+**Watch for a name clash.** If you already have a skill using one of these nine names, `--force` replaces it and there is no undo. Run it without `--force` first and read what it reports as already there.
+
 ## The pipeline
 
 The spine runs left to right. The tail after `/develop` is not fixed: it is gated by the workflow tier (see below).
